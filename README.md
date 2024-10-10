@@ -1,5 +1,5 @@
-# Introduction PredictNews App
-Perancangan aplikasi ini dibuat untuk mendeteksi keaslian isi dari sebuah berita. Dataset yang digunakan untuk model klasifikasi berita ini adalah train.csv. Pada dataset tersebut terdapat berita atau informasi palsu, seperti clickbait (headline berita yang tidak sesuai dengan isi berita), disinformasi (informasi yang menyesatkan publik), misinformasi (informasi palsu dari motif yang sebenarnya), dan bentuk lainnya. Dalam menggunakan aplikasi ini pengguna dapat memilih sebuah artikel berita yang relevan sesuai dengan minat atau berita yang disukainya, pengguna dapat langsung memastikan berita tersebut benar atau tidak (misinformasi) dengan menyalin beberapa kalimat atau sebuah paragraf dari berita tersebut lalu menaruhnya ke dalam form aplikasi deteksi dan menekan tombol prediksi untuk melihat hasilnya.
+# Introduction Predict Fake News App
+This application design is made to detect the authenticity of the content of a news story. The dataset used for this news classification model is train.csv. The dataset contains fake news or information, such as clickbait (news headlines that do not match the content of the news), disinformation (information that misleads the public), misinformation (false information from real motives), and other forms. In using this application, users can choose a relevant news article according to their interests or news they like, users can immediately confirm whether the news is true or not (misinformation) by copying a few sentences or a paragraph from the news and then putting it into the detection application form and pressing the prediction button to see the results.
 
 ## Installation / Setup instruction
 The application requires the following installations to operate:
@@ -11,29 +11,9 @@ The application requires the following installations to operate:
 - python 3.8.5
 
 ## Project Setup Instructions
-1) Git clone the repository 
-```
-https://github.com/nopandiar-404/predict2-final-project.git
-```
-2. cd into pa-predict-news
-```
-cd pa-predict-news
-```
-3. create a virtual env
-```
-conda create -n predict-news python=3.8.5
-```
-4. activate env
-```
-activate predict-news
-```
-5. Open CMD & Install Dependancies
-```
-pip install -r requirements.txt
-```
-6. Execute app.py
-```
-python app.py
-```
+1. Create a Virtual Environment with a command "python -m venv (your virtual environmnent name)
+2. Activate your Venv with a command "(your virtual environmnent name)\scripts\activate
+3. Install library and module Install the required libraries and modules in a text named requirements.txt with the pip command “pip install -r requirements.txt”.
+4. After completing the installation, run the application on local with the command “python app.py”
 
-© 2022 Predict-2
+© 2024 Muhammad Haykal Andana - Machine Learning Engineer
